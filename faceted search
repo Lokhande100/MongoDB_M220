@@ -1,0 +1,13 @@
+What is a Faceted Search?
+
+Faceted search is a way of narrowing down search results as search parameters are added. For example, let's say MFlix allows users to filter movies by a rating from 1 to 10, but Kate Winslet has only acted in movies that have a rating of 6 or higher.
+
+If we didn't specify any other search parameters, MFlix would allow us to choose a rating between 1 and 10. But if we first search for Kate Winslet, the application would only let us choose a rating between 6 and 10, because none of the movie documents in the result set have a rating below 6.
+
+If you're curious, you can read more about Faceted Search here.
+
+Faceted Search in MFlix
+
+Faceted searches on the MFlix site cannot be supported with the basic search method get_movies, because that method uses the Mongo query language. For faceted searches, the application must use the Aggregation Framework.
+
+The method get_movies_faceted uses the Aggregation Framework, and the individual stages in the pipeline have already been completed. Follow instructions in the db.py file to append the required stages to the pipeline object

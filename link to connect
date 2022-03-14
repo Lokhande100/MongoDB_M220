@@ -1,0 +1,10 @@
+mongodb+srv://m220student:m220password@mflix-yekah.mongodb.net/test?retryWrites=true
+
+
+mongodb+srv://m220student:m220password@mflix.6klbo.mongodb.net/sample_mflix?retryWrites=true&w=majority
+
+mongodb+srv://m220student:m220password@mflix.6klbo.mongodb.net/sample_mflix
+
+mongodb+srv://mflixAppUser:mflixAppPwd@mflix.6klbo.mongodb.net/sample_mflix
+
+mongodb+srv://mflixAppUser:mflixAppPwd@mflix.6klbo.mongodb.net/sample_mflix?retryWrites=true&w=majority
